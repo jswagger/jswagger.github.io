@@ -1,0 +1,107 @@
+body{
+	color: #000;
+	font-size: 20px;
+	font-family: Calibri;
+	position: absolute;
+	background-color: rgb(196, 190, 190);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+	background-image: -webkit-linear-gradient(top, start-color, end-color);
+	background-image: -moz-linear-gradient(top, start-color, end-color);
+	background-image: linear-gradient(to bottom, start-color, end-color);
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#title{
+	color: #000;
+	top: 10px;
+	left: 200px;
+	position: static;
+	font-size: 2.5em;
+	text-align: center
+	
+}
+
+.team-link{
+	position: absolute;
+	right: 1em;
+	color: #000
+}
+
+.team-schedule{
+	position: absolute;
+	left: 1em;
+	height: 3em;
+	width: 10em;
+	color: #fff;
+	background-color:rgb(97, 95, 95);
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+	transition: .4s;
+	border-radius: 10px;
+}
+
+	.team-schedule:hover{
+		height: 25em;
+		cursor: pointer;
+		border-radius: 2px;
+	}
+
+.team-schedule-list{
+	font-size: 1em;
+}
+.team-card{
+	height: 5em;
+	width: 15em;
+	background-color:rgb(223, 217, 217);
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+	transition: .4s;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	text-overflow: clip;
+}
+	.team-card:hover{
+		height: 15em;
+		cursor: pointer;
+		border-radius: 2px;
+		width: 90vw;
+	}
+	
+.team-card-title{
+	padding-top: 1.5em;
+}
+
+.team-card-desc{
+	font-size: 16px;
+	height: 90%;
+	text-overflow: clip;
+}
+.main-header{
+	text-align: center;
+}
+
+.team-logo{
+	text-align: center;
+	border-radius: 1em;
+	box-shadow: 1em, 1em, #000;
+	margin-top: calc(2em - 1vw);
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+	
+}
+
+	
+#coolImage{
+	width: 250px;
+	height: 200px;
+	margin: 2px;
+	
+}
+
+#pictureHolder{
+	width:100%;
+	height: 210px;
+	border: 2px #fff;
+	scroll: auto;
+	
+}

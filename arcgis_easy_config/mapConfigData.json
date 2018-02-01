@@ -1,0 +1,29 @@
+{
+  "__appInstructions__": "Specify app title. Plug in URLs to map services. Specificy map, widget, and app preferences.",
+  "appName": "3D Map",
+  "mapLayers": [
+    {
+      "name": "Warnings",
+      "url": "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Forecasts_Guidance_Warnings/watch_warn_adv/MapServer",
+      "listMode": "show",
+      "visible": "true",
+      "opacity": 50
+    },
+    {
+      "name": "Weather",
+      "url": "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Observations/radar_base_reflectivity/MapServer"
+    },
+    {
+      "name": "Contours",
+      "url": "https://services.nationalmap.gov/arcgis/rest/services/Contours/MapServer",
+      "listMode": "show",
+      "visible": "false"
+    }
+  ],
+  "startView": {
+    "latitude": 19.5,
+    "longitude": -95.3,
+    "z": 1000000,
+    "spatialReference": { "wkid": 3857 }
+  }
+}

@@ -165,11 +165,12 @@ body{
 
 .project-title{
     position: absolute;
-    bottom: 1em;
+    bottom: 0em;
     left: 0;
-    height: 2em;
+    height: 100%;
     width: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, .7);
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: .7em;
+    font-size: 27px;
 }

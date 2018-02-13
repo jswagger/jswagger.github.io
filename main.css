@@ -32,6 +32,11 @@ body{
     margin-top: .8em;
 }
 
+.title-tagline{
+	margin: unset;
+	font-size: 15px;
+	font-style: italic;
+}
 .title-link{
     width: .8em;
     float: right;
@@ -46,6 +51,7 @@ body{
     width: 70%;
     background-color: rgba(74, 71, 84, .8);
     margin: auto;
+	height: 100%;
 }
 .project-list{
     padding-top: 7em;
@@ -96,6 +102,8 @@ body{
     box-shadow: 1em, 1em, #000;
     transition: transform 1s;
     transform-style: preserve-3d;
+	box-shadow: 3px 3px 20px #000;
+	border-radius: 20px;
   }
   
   .project-card:hover .project-content {
@@ -142,7 +150,7 @@ body{
  }
 
  .project-back-header-text{
-    margin-right: 70px;
+    margin-right: 50px;
     margin-top: 17px;
     font-size: 24px;
  }
@@ -170,12 +178,11 @@ body{
 
 .project-title{
     position: absolute;
-    bottom: 0em;
+    bottom: 2em;
     left: 0;
-    height: 100%;
+    height: 2em;
     width: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, .3);
-    border-radius: .7em;
-    font-size: 27px;
+    font-size: 30px;
+	text-shadow: 1px 3px 8px #01172f;
 }

@@ -52,7 +52,7 @@ body{
     background-color: rgba(74, 71, 84, .8);
     margin: auto;
 	height: 100%;
-	min-height: 900px;
+	min-height: 1050px;
 }
 .project-list{
     padding-top: 7em;
@@ -92,8 +92,8 @@ body{
     width: 20em;
     height: 10em;
     perspective: 500px;
-    margin-top: 2em;
-    transition: transform 1s;
+    margin-top: 4em;
+    transition: transform 3s;
     transform-style: preserve-3d;
   }
   
@@ -101,7 +101,7 @@ body{
     width: 100%;
     height: 100%;
     box-shadow: 1em, 1em, #000;
-    transition: transform 1s;
+    transition: transform 3s;
     transform-style: preserve-3d;
 	box-shadow: 3px 3px 20px #000;
 	border-radius: 20px;
@@ -109,7 +109,7 @@ body{
   
   .project-card:hover .project-content {
     transform: rotateY( 180deg ) ;
-    transition: transform 0.5s;
+    transition: transform 1.5s;
   }
   
   .project-front,
@@ -131,11 +131,12 @@ body{
  
  .project-link {
 	position: absolute;
-	width: 100%; 
-	height: 100%;
-	top: 0; 
-	left: 0; 
-	z-index: 100;
+    width: 3em;
+    height: 3em;
+    background-color: rgba(74, 71, 84, .8);
+    border-radius: 10em;
+    bottom: 10px;
+    right: 10px;
  }
 
  .project-back-header{
@@ -155,10 +156,14 @@ body{
     margin-top: 17px;
     font-size: 24px;
  }
+ 
  .project-back-text{
-    margin-top: 3.5em;
+	margin-top: 4.5em;
+	margin-left: 2em;
     font-size: 13px;
+    width: 80%;
  }
+ 
  .project-back-pic{
      position: absolute;
      top: 1.5em;

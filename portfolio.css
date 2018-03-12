@@ -46,6 +46,23 @@ body{
     margin-top: 0.4em;
 }
 
+.title-links-pages{
+    transition: .2s;
+    font-size: .5em;
+    font-weight: bold;
+    color: #fff;
+    margin-left: .8em;
+    margin-top: 1em;
+    text-decoration: none;
+    display:inline;
+
+}
+    .title-links-pages:hover{
+        color:rgb(167, 167, 167)
+    }
+
+
+
 .title-links{
     margin-left: 25vw;
     display:inline;
@@ -60,7 +77,6 @@ body{
     background-color: #fff;
     margin: auto;
 	height: 100%;
-	min-height: 1050px;
 }
 .project-list{
     padding-top: 7em;
@@ -79,6 +95,8 @@ body{
     box-shadow: 1px 1px 10px #000;
     
 }
+
+
 
 .project-list-item-link{
     text-decoration: none;

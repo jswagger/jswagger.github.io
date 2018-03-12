@@ -94,7 +94,7 @@ body{
     font-size: .5em;
     font-weight: bold;
     color: #fff;
-    margin-left: .5em;
+    margin-left: .8em;
     margin-top: 1em;
     text-decoration: none;
     display:inline;
@@ -108,6 +108,6 @@ body{
     bottom: 0em;
     width: 100vw;
     height: 2em;
-    background-color: #383838;
+    background-color: #bbbbbb;
     opacity: .7;
 }

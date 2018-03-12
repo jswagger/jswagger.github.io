@@ -46,6 +46,12 @@ body{
     margin-top: 0.4em;
 }
 
+.title-links{
+    margin-left: 25vw;
+    display:none;
+}
+
+
 .title-links-pages{
     transition: .2s;
     font-size: .5em;
@@ -232,6 +238,11 @@ body{
     font-size: 1em;
 }
 
+.title-links{
+    margin-left: 25vw;
+    display:none;
+}
+
 .title-links-pages{
     transition: .2s;
     font-size: .5em;
@@ -253,4 +264,11 @@ body{
     height: 2em;
     background-color: #383838;
     opacity: .7;
+}
+
+@media screen and (min-width:640px) {
+    /*design for screen-width >= 640px */
+    .title-links {
+        display: inline;
+    }
 }

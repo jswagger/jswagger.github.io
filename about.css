@@ -33,12 +33,12 @@ body{
     margin:auto;
 }
 
-
-@media only screen and (max-width: 376px) {
-    a {
-display:none;
-    }
+.title-links{
+    margin-left: 25vw;
+    display:none;
 }
+
+
 .title-links-pages{
     transition: .2s;
     font-size: .5em;
@@ -47,7 +47,6 @@ display:none;
     margin-left: .8em;
     margin-top: 1em;
     text-decoration: none;
-    display:inline;
 }
     .title-links-pages:hover{
         color:rgb(167, 167, 167)
@@ -112,4 +111,11 @@ display:none;
     height: 2em;
     background-color: #383838;
     opacity: .7;
+}
+
+@media screen and (min-width:640px) {
+    /*design for screen-width >= 640px */
+    .title-links {
+        display: inline;
+    }
 }

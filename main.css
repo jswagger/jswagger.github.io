@@ -59,11 +59,12 @@ body{
 	margin-left: unset;
 	display:inline;
 	vertical-align: super;
+	font-size: .4em;
+
 }
 
 .title-links-pages{
 	transition: .2s;
-	font-size: .5em;
 	font-weight: bold;
 	color: #fff;
 	margin-left: .8em;
@@ -106,6 +107,7 @@ body{
 	}
 	.title-links{
 		margin-left: 25vw;
+		font-size: .5em;
 	}
 }
 

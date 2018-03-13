@@ -104,6 +104,16 @@ body{
     }
 }
 
+@media screen and (min-width:1300px) {
+	.title-links-pages{
+		margin-left: 3em;
+	}
+	.footer-link{
+		margin-left: 3em;
+		margin-right: 3em;
+	}
+}
+
 .project-holder{
     width: 70%;
     background-color: #fff;

@@ -68,7 +68,7 @@ body{
     }
 
 .footer{
-    position: absolute;
+	display: inline-block;
     bottom: 0em;
     width: 100vw;
     height: 2em;
@@ -118,6 +118,7 @@ body{
     width: 70%;
     background-color: #fff;
     margin: auto;
+	margin-bottom: 15em;
 	height: 100%;
 }
 .project-list{
@@ -129,6 +130,7 @@ body{
     margin: auto;
     margin-left: 1em;
     margin-top: 1em;
+	margin-bottom: 1em;
     background-color: #fff;
     width: 16em;
     height: 10em;

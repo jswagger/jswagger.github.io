@@ -4,7 +4,7 @@ html {
 body{
 	color: #000;
 	font-size: 20px;
-	font-family: nunito;
+	font-family: "nunito", "proxima nova light", "Helvetica Neue", Helvetica;
 	position: absolute;
 	text-align: center;
 	margin: auto;

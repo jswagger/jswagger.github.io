@@ -72,7 +72,7 @@ body{
     bottom: 0em;
     width: 100vw;
     height: 2em;
-    background-color: #bbbbbb4b;
+    background-color: #848484b5;
 }
 
 .footer-link-holder{
@@ -115,7 +115,7 @@ body{
 }
 
 .project-holder{
-    width: 70%;
+    width: 80%;
     background-color: #fff;
     margin: auto;
 	margin-bottom: 15em;
@@ -128,20 +128,15 @@ body{
 }
 .project-list-item{
     margin: auto;
-    margin-left: 1em;
     margin-top: 1em;
 	margin-bottom: 1em;
     background-color: #fff;
-    width: 16em;
+    width: 14em;
     height: 10em;
     border-radius: .1em;
-    display: inline-block;
     box-shadow: 1px 1px 10px #000;
-    float: right;
     
 }
-
-
 
 .project-list-item-link{
     text-decoration: none;
@@ -241,14 +236,14 @@ body{
 @media screen and (min-width:640px) {
     .project-list-item{
         margin: auto;
-        margin-left: 1em;
+        margin-left: 2em;
         margin-top: 1em;
+        margin-bottom: 1em;
         background-color: #fff;
-        width: 14em;
-        height: 8.5em;
+        width: 20em;
+        height: 12em;
         border-radius: .1em;
-        display: inline-block;
-        float: unset;
+        float: left;
     }
 
     .project-list{

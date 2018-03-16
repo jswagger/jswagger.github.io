@@ -147,6 +147,12 @@ body{
 	
 }
 
+.about-tag-image{
+	width: 90vw;
+    margin-bottom: 1em;
+	max-width: 400px;
+}
+
 .about-tag-paragraph-highlight{
 	text-align: center;
 	font-size: 1.3em;

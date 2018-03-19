@@ -249,4 +249,8 @@ body{
     .project-list{
         padding-top: 7em;
     }
+	
+	.project-holder{
+		margin-bottom: 80vh;
+	}
 }

@@ -144,24 +144,31 @@ body{
 	/* background: url('prof3.jpg') no-repeat center center fixed;  */
 	font-size: .7em;
 	max-width: 980px;
-	height: 50vh;
+	height: 35vh;
 	margin-top: 3em;
 	margin-bottom: 3em;
+	/*display: inline; */
 }
 
 .about-desc-phrase{
 	color: #292a2d;
-	width: 60vw;
-	max-width: 550px;
+    max-width: 550px;
     position: absolute;
-    right: .3em;
     padding-top: 1em;
-    display: inline-block;
+	display: inherit;
+    margin-left: 120px;	
 }
 
 .about-image{
 	width: 100%;
     float: left;
+}
+
+.chart-container{
+	margin: auto;
+	height: auto;
+    width: 300px;
+	margin-bottom: 10vh;
 }
 
 .about-resume{
@@ -173,12 +180,11 @@ body{
 
 @media screen and (min-width:640px) {
 	.about-desc{
-		margin-bottom: 60vh;
-		margin-right: 186px;
-		display: inline-block;
-		width: 70vw;
-		height: 70vh;
-		background-color:green;
+		margin-bottom: 15px;
+		margin-right: 20vw;
+		margin-left: 4em;
+		width: 56vw;
+		height: calc(200px + 15vh);	
 	}
 	.about-tag{
 		text-align: left;
@@ -187,9 +193,21 @@ body{
 	.about-desc-phrase{
 		width: 33vw;
 		font-size: 1.3em;
-		left: 44%;
+		left: 18vw;
+		margin-left: calc(60px + 1vw);
 		right: unset;
+		display: inline;
+
 	}
 	.about-image{
+	}
+	.chart-container{
+		width: 70vh;
+	}
+}
+
+@media screen and (min-width:1350px) {
+	.about-desc{
+		
 	}
 }

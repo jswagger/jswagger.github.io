@@ -6,7 +6,9 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>	 -->
-</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <!-- <script src="./about_charts.js"></script></head> -->
+  
 <body>
 	<div class="header">
 		<div class="title" >
@@ -43,6 +45,9 @@
 	
 	</div>
 	<!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="jeremy-swagger-5204356b"><a class="LI-simple-link" href='https://www.linkedin.com/in/jeremy-swagger-5204356b?trk=profile-badge'>Jeremy Swagger</a></div> -->
+	<div class="chart-container">
+		<canvas id="aboutChart" width="50" height="50"></canvas>
+	</div>
 	<a class="about-resume" href=".\resume.pdf" target="_blank">My Resume'</a>
 	<div class="footer">
 			<div class="footer-link-holder">
@@ -58,4 +63,34 @@
 			</div>
 		</div>
 </body>
+<script>
+var ctx = document.getElementById("aboutChart").getContext('2d');
+var aboutChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Angular", "JavaScript", "CSS", "HTML", "Python", "GIS"],
+        datasets: [{
+            label: 'Skills',
+            data: [3, 4, 4, 4, 2.5, 4.5],
+            backgroundColor: [
+                'rgba(168, 169, 185, 0.5)',
+                'rgba(113, 115, 142, 0.5)',
+                'rgba(168, 169, 185, 0.5)',
+                'rgba(168, 169, 185, 0.5)',
+                'rgba(79, 81, 99, 0.5)',
+                'rgba(168, 169, 185, 0.5)'
+            ]
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
 </html>

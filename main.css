@@ -4,6 +4,7 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	height: 110vh;
 	}
 
 body{
@@ -16,7 +17,7 @@ body{
 	text-align: center;
 	margin: auto;
 	width: 100%;
-	height: 110vh;
+	height: 100%;
 	background: rgba(255, 255, 255, 0.2);
 }
 

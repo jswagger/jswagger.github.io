@@ -1,5 +1,5 @@
 html { 
-    }
+}
 
 body{
 	color: #000;
@@ -124,6 +124,7 @@ body{
     width: 90vw;
     height: 85vh;
 }
+
 .about-title{
     margin-top: 1em;
     text-align: left;
@@ -153,7 +154,8 @@ body{
     height: 80vh;
     max-height: 450px;
     margin: auto;
-    margin-bottom: 2em;}
+    margin-bottom: 2em;
+}
 
 .about-desc-phrase{
 	color: #292a2d;
@@ -209,17 +211,21 @@ body{
 		width: 56vw;
 		height: calc(200px + 15vh);	
 	}
+	
 	.about-desc-phrase {
 		font-size: 2vw;
 		width: 40vw;
 		right: 15vw;
 	}
+	
 	.about-image{
 		margin-bottom: 2em;
 	}
+	
 	.chart-container{
 		width: 70vh;
 	}
+	
 	.about-holder{
 		width: 75vw;
 		height: 85vh;

@@ -147,6 +147,10 @@ body{
 	text-align: center;
 }
 
+.summary-section{
+	border-top: solid 1px #d6e1e5;
+}
+
 .list{
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -163,6 +167,7 @@ body{
 	max-width: 400px;
 	font-size: 1.2em;
 	text-align: center;
+	vertical-align: top;
 	display: inline-block;
 }
 

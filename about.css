@@ -180,10 +180,29 @@ body{
 	margin-bottom: 10vh;
 }
 
+.section-philosophies{
+	margin: auto;
+	text-align: left;
+	width: 95%
+}
+
+.philo-item{
+	font-size: 1.3em;
+	list-style-type: none;
+}
+
+.philo-item-desc{
+	font-size: .7em;
+	color: #434244;
+	margin-bottom: 1.5em;
+}
+
+
 .about-resume{
     color: #fff;
     font-size: .9em;
-    margin: auto;
+	margin: auto;
+	margin-top: 3em;
     margin-bottom: 3em;
     display: inherit;
     text-decoration: none;

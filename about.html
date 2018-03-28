@@ -9,7 +9,7 @@
   <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>	 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <!-- <script src="./about_charts.js"></script></head> -->
+</head>
   
 <body>
 	<div class="header">
@@ -35,7 +35,7 @@
 	</div>
 	<div class="about-holder">
 		<h1 class="about-title">about me</h1>
-		<h3 class="about-tag">Husband + Father | Football Fan | Minimalist | Coder | Tea Drinker | Adventurer</h3>
+		<h3 class="about-tag">Husband + Father | Football Fan | Minimalist | Coder | Tea Drinker | Adventurer | Jesus-Follower</h3>
 		<img class="about-image" src=".\prof3.jpg">
 		<div class="about-desc-phrase">
 				Coding the day away along the shores of Lake Superior, cup of tea in hand. I enjoy taking 
@@ -49,6 +49,7 @@
 		<canvas id="aboutChart" width="50" height="50"></canvas>
 	</div>
 	<section class="section-philosophies">
+		<h2 class="section-philosophies-title">Philosophies</h2>
 		<ul>
 		    <li class="philo-item">
 				<i class="fa fa-umbrella"></i> Keep it DRY
@@ -57,7 +58,7 @@
 			</li>
 			<li class="philo-item">
 				<i class="fa fa-list-ol"></i> Keep it Single
-				<p class="philo-item-desc">Multitasking in code and regular life can be a nightmare. Bite-size functions and classes with singular responsibiilty
+				<p class="philo-item-desc">Multitasking in code and regular life can be a nightmare. Bite-size functions and classes with singular responsibility
 						keeps my code readable and helps deter bugs.</p>
 			</li>
 			<li class="philo-item">
@@ -86,44 +87,5 @@
 		</div>
 	</div>
 </body>
-<script>
-var ctx = document.getElementById("aboutChart").getContext('2d');
-var aboutChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ["Angular", "JavaScript", "CSS", "Python", "GIS"],
-        datasets: [{
-            label: 'Skills',
-            data: [3, 4, 4, 2.5, 4.5],
-            backgroundColor: [
-				'#eff2f5',
-                '#e0e6eb',
-                '#d0dae1',
-                '#c1cdd7',
-                '#b1c1cd'
-            ]
-        }]
-    },
-    options: {
-		
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true,
-					callback: function(value) {if (value % 1 === 0) {return value;}},
-					suggestedMax: 5
-                },
-				gridLines: {
-                    display:false
-                }
-            }],
-			xAxes: [{
-				gridLines: {
-                    display:false
-                }
-			}]
-        }
-    }
-});
-</script>
+<script src="./about_charts.js"></script>
 </html>

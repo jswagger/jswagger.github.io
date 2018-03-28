@@ -186,6 +186,13 @@ body{
 	width: 95%
 }
 
+.section-philosophies-title{
+	text-align: center;
+	border-top: solid 1px #d6e1e5;
+	padding-top: 2em;
+    margin-bottom: 2em;
+}
+
 .philo-item{
 	font-size: 1.3em;
 	list-style-type: none;

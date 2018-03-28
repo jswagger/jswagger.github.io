@@ -205,6 +205,10 @@ body{
 	box-shadow: 1px 1px 10px rgb(107, 107, 107);
 }
 
+.about-image-note{
+	font-size: .5em;
+    color: #cacaca;
+}
 
 .button-normal{
     color: #fff;

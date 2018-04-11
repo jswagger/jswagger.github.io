@@ -1,0 +1,16 @@
+.formFooter{
+	display: none;
+}
+
+.form-holder{
+	height: 50em;
+    width: 90vw;
+}
+
+.freebirdFormviewerViewFormBanner {
+    height: 130px;
+}
+
+.freebirdFormviewerViewFormContentWrapper{
+	height: 10em;
+}

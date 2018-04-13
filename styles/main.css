@@ -1,11 +1,16 @@
 html { 
-	background: url('splash.jpg') no-repeat center center fixed; 
+	background: url('..\\splash.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
 	}
+
+@font-face {
+	font-family: nunito;
+	src: url(./fonts/Nunito-Regular.ttf);
+}
 
 body{
 	color: #000;

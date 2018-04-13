@@ -1,0 +1,126 @@
+html { 
+}
+
+@font-face {
+	font-family: nunito;
+	src: url(./fonts/Nunito-Regular.ttf);
+}
+
+body{
+	color: #000;
+	font-size: 20px;
+	font-family: "nunito", "proxima nova light", "Helvetica Neue", Helvetica;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+
+.header{
+	color: #fff;
+	background-color: #000;
+	height: 2em;
+	text-align: left;
+	font-weight: 200;
+	width: 100%;
+	font-size: 2em;
+	margin-top: 0em;
+}
+
+.title{
+	color: #fff;
+	text-align: left;
+	font-weight: 200;
+	width: 92%;
+	margin:auto;
+}
+
+.title-link{
+	width: .8em;
+	float: right;
+	margin-right: .7em;
+	margin-top: 0.4em;
+}
+
+.title-logo{
+	width: .8em;
+	margin: unset;
+	display: none;
+}
+
+.title-logo-main{
+	text-decoration: none;
+    margin-top: .5em;
+	display: inline-block;
+}
+
+.title-links{
+	margin-left: unset;
+	display:inline;
+	vertical-align: super;
+	font-size: .4em;
+}
+
+.title-links-pages{
+	transition: .2s;
+	font-weight: bold;
+	color: #fff;
+	margin-left: .8em;
+	text-decoration: none;
+}
+	.title-links-pages:hover{
+		color:rgb(167, 167, 167)
+	}
+
+.footer{
+	bottom: 0em;
+    width: 100%;
+	height: 2em;
+	margin-top: 2em;
+	background-color: #848484b5;
+}
+
+.footer-link-holder{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: .3em;
+}
+
+.footer-link{
+	width: 1.5em;
+    margin-bottom: 0.7em;
+    margin-left: .5em;
+	margin-right: .5em;
+	text-decoration: none;
+}
+
+.footer-logo{
+	width: 1.5em;
+	margin-top: .3em;
+}
+
+@media screen and (min-width:640px) {
+	.title-logo {
+		display: inline;
+	}
+	.title-links{
+		margin-left: 25vw;
+		font-size: .5em;
+	}
+}
+
+@media screen and (min-width:1300px) {
+	.title-links-pages{
+		margin-left: 3em;
+	}
+	.footer-link{
+		margin-left: 3em;
+		margin-right: 3em;
+	}
+}

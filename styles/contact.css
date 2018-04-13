@@ -7,11 +7,11 @@
     width: 90vw;
 }
 
-.freebirdFormviewerViewFormBanner !important{
+.freebirdFormviewerViewFormBanner{
     height: 130px;
 }
 
-.freebirdFormviewerViewFormContentWrapper !important{
+.freebirdFormviewerViewFormContentWrapper{
 	height: 10em;
 }
 
@@ -34,9 +34,9 @@
 	.contact-holder{
 		width: 40vw;
 		float: left;
+		margin: 2em;
 	}
 	.contact-image{
 		width: 40vw;
 	}
-
 }

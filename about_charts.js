@@ -5,7 +5,7 @@ var aboutChart = new Chart(ctx, {
         labels: ["Angular", "JavaScript", "CSS", "Python", "GIS"],
         datasets: [{
             label: 'Skills',
-            data: [3, 4, 4, 2.5, 4.5],
+            data: [3, 4, 4, 3.5, 4.5],
             backgroundColor: [
 				'#eff2f5',
                 '#e0e6eb',

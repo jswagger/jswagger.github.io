@@ -14,17 +14,17 @@ var aboutChart = new Chart(ctx, {
         ],
         datasets: [{
             label: 'Criteria',
-            data: [5, 5, 5, 3, 5, 5, 5, 3, 5],
+            data: [10, 10, 10, 5, 10, 10, 10, 8, 10],
             backgroundColor: [
-		        '#eff2f5',
+		'#eff2f5',
                 '#e0e6eb',
                 '#d0dae1',
                 '#c1cdd7',
                 '#b1c1cd',
-                '#b1c1cd',
-                '#b1c1cd',
-                '#b1c1cd',
-                '#b1c1cd'
+                '#9fb3c2',
+                '#8fa3b3',
+                '#7790a3',
+                '#688296'
             ]
         }]
     },
@@ -35,7 +35,7 @@ var aboutChart = new Chart(ctx, {
                 ticks: {
                     beginAtZero:true,
 					callback: function(value) {if (value % 1 === 0) {return value;}},
-					suggestedMax: 5
+					suggestedMax: 10
                 },
 				gridLines: {
                     display:false

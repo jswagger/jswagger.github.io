@@ -2,10 +2,10 @@ var ctx = document.getElementById("aboutChart").getContext('2d');
 var aboutChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Angular", "JavaScript", "CSS", "Python", "GIS"],
+        labels: ["User Experience", "Client Communication", "UI Design", "Unit Testing", "Clean Code"],
         datasets: [{
             label: 'Skills',
-            data: [3, 4, 4, 3.5, 4.5],
+            data: [4.5, 4, 4, 4.5, 3.5,],
             backgroundColor: [
 				'#eff2f5',
                 '#e0e6eb',

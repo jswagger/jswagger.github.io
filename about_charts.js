@@ -5,13 +5,13 @@ var aboutChart = new Chart(ctx, {
         labels: ["User Experience", "Client Communication", "UI Design", "Unit Testing", "Clean Code"],
         datasets: [{
             label: 'Skills',
-            data: [4.5, 4, 4, 4.5, 3.5,],
+            data: [4.5, 4, 4, 4.5, 3.5],
             backgroundColor: [
-				'#eff2f5',
+		            '#eff2f5',
                 '#e0e6eb',
+	    	        '#d5e0e8',
                 '#d0dae1',
-                '#c1cdd7',
-                '#b1c1cd'
+                '#c1cdd7'
             ]
         }]
     },
